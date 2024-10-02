@@ -1,0 +1,72 @@
+.mainss {
+  height: 55px;
+}
+
+.dropdown {
+  padding: 10px 0 0 20px;
+  width: 125px;
+}
+
+.dropdown-button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  /* background-color: #f9f9f9; */
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.dropdown-content label {
+  /* display: block; */
+  margin-bottom: 8px;
+}
+
+.dropdown-content select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.drop{
+  height: 15px;
+  width: 15px;
+  /* /* padding-left; */
+}
+
+label{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.subdrop{
+  width: 100px;
+}
+
+.dropdd{
+  padding-right: 100px;
+  color: #6b6b6b;
+}
+
+.tuneicon{
+  padding-top: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.dropicon{
+  padding-left: 8px;
+  padding-top: 3px;
+}

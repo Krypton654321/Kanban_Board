@@ -1,0 +1,68 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  width: 250px; /* Set a fixed width for all cards */
+  height: 120px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+.idd {
+  color: #6b6b6b;
+  margin: 0; /* Remove margin */
+  padding-bottom: 2px; /* Reduce space below the ID */
+  font-size: 12px; /* Optionally adjust font size if needed */
+}
+
+/* Truncate title after two lines with ellipsis */
+h5 {
+  font-size: 16px;
+  line-height: 1.2em;
+  max-height: 2.4em; /* Limit the title to two lines */
+  overflow: hidden;
+  display: -webkit-box; /* Required for truncating multiple lines */
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical; /* Required for truncating multiple lines */
+  text-overflow: ellipsis;
+}
+
+p {
+  font-size: 14px;
+  color: #6b6b6b;
+  word-wrap: break-word; /* Ensure tags break nicely within the card */
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflowing tags */
+  white-space: nowrap; /* Prevent multiple lines for tags */
+}
+
+.featured {
+  display: flex;
+  align-items: center;
+}
+
+.tag-container {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #ccc; /* Add border around the text */
+  padding: 5px; /* Add padding inside the box */
+  border-radius: 4px; /* Optional: add rounded corners */
+  margin-right: 2px;
+}
+
+.maincont {
+  display: flex;
+}
+.maincont2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.prio {
+  width: 15px;
+}

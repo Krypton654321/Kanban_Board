@@ -1,0 +1,12 @@
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .user-column {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
